@@ -1,0 +1,8 @@
+; SETTINGS.txt
+; SETTINGS Details:
+;   NETWORK_INTERFACE: The IP Subnet to monitor
+;   SECURITY_CODE: You will need to get this to launch the app. You must be part of the discord.
+;
+[SETTINGS]
+NETWORK_INTERFACE: <insert network interface>
+SECURITY_CODE: <insert security code>
