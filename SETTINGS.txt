@@ -2,6 +2,7 @@
 ; SETTINGS Details:
 ;   NETWORK_INTERFACE: The IP Subnet to monitor
 ;   SECURITY_CODE: You will need to get this to launch the app. You must be part of the discord.
+;   CHALLENGE_MODE: Set Challenge Levels for in-game deck
 ;
 [SETTINGS]
 NETWORK_INTERFACE: <insert network interface>

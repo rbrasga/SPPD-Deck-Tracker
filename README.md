@@ -9,8 +9,6 @@ Introduction:
 
 This is a very basic application meant to run along side South Park Phone Destroyer
 
-At the moment, SECURITY_CODE is a required setting for beta testing, until official release.
-
 Please join the discord: https://discord.gg/m95hg3S
 
 Current supported actions:
