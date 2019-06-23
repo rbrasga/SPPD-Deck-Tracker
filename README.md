@@ -11,6 +11,8 @@ This is a very basic application meant to run along side South Park Phone Destro
 
 Please join the discord: https://discord.gg/m95hg3S
 
+Walkthrough of the installation process with Nox: https://youtu.be/zJnpfzSowlE
+
 Current supported actions:
   * Tracking Opponent's Deck in real-time, as they play cards
   * Log Match Details
