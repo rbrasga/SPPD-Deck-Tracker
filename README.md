@@ -16,6 +16,11 @@ Current supported actions:
   * Log Match Details
   * Log Locker Rewards
   * Log Pack Rewards
+  * TVT Bracket Analytics
+  * Estimated ELO gained/lost For Win/Loss
+  * Locker Limit Tracking (When it resets and how far along you are)
+  * Deck Building Tab (Build and store as many decks as you want)
+  * Export your entire collection in an easy-to-read format
   
 Known Issues:
   * Tracking Opponent's Deck does not work on iPhone.
@@ -119,11 +124,11 @@ There's no such thing as a bad feature request.
 Roadmap and Milestones:
 ============================================
 	* May 30, 2019 - Initial Commit
-	* June 2019 - Card Levels
-	* June 2019 - Estimate ELO gained/lost For Win or Loss
-	* June 2019 - Deck Building Tab
-	* June 2019 - Export Collection
-	* July 2019 - Locker Limit Tracking
+	* June 14, 2019 - Estimate ELO gained/lost For Win or Loss
+	* June 14, 2019 - Locker Limit Tracking
+	* June 21, 2019 - Deck Building Tab
+	* June 21, 2019 - Export Collection
+	* July 2019 - All Card Levels
 	* August 2019 - Team Search Tab - A better team search function
 		* Search by TVT tier, Average MMR, number of players in a specific range (40-49)
 	* August 2019 - Statistics Tab - Win Rate + Epic/Legendary graphs
