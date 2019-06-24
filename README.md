@@ -31,6 +31,8 @@ Known Issues:
 Installation:
 ==============
 
+Installation Video [I need to update this with some missing parts]: https://youtu.be/zJnpfzSowlE
+
 Before installation, you need to install WinPcap from https://www.winpcap.org/
 
 After downloading the SPPD Deck Tracker, you may need to Unblock the DLLs in libpcap and libpcap/_platform: https://i.imgur.com/dKJEAfd.png
