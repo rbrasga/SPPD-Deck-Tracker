@@ -31,6 +31,10 @@ Known Issues:
 Installation:
 ==============
 
+Before installation, you need to install WinPcap from https://www.winpcap.org/
+
+After downloading the SPPD Deck Tracker, you may need to Unblock the DLLs in libpcap and libpcap/_platform: https://i.imgur.com/dKJEAfd.png
+
 For Android:
 
 Option 1) Nox Android Emulator (Preferred)
