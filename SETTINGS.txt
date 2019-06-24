@@ -6,5 +6,4 @@
 ;
 [SETTINGS]
 NETWORK_INTERFACE: <insert network interface>
-SECURITY_CODE: <insert security code>
 CHALLENGE_MODE: False
