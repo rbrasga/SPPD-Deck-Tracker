@@ -1,7 +1,7 @@
 # SPPD-Deck-Tracker
 South Park Phone Destroyer Deck Tracker
 
-Current Version: v0.91 BETA
+Current Version: v1.02
 
 
 Introduction:
@@ -74,7 +74,9 @@ Option 2) BlueStacks Android Emulator
       * $ adb push certificate.pem /etc/security/cacerts/xxxxxxxx.0
       * $ adb shell chmod 644 /etc/security/cacerts/xxxxxxxx.0
 	  * $ adb shell mount -o remount,ro /system
+	  
 	  OR
+	  
 	  * adb connect 127.0.0.1:5555
 	  * adb -t X push certificate.pem /sdcard/
 	     * (where X is the transport ID defined in `adb devices -l`)
@@ -84,7 +86,7 @@ Option 2) BlueStacks Android Emulator
 	  * $> mv /etc/security/cacerts/xxxxxxxx.0
 	  * $> chmod 644 /etc/security/cacerts/xxxxxxxx.0
 	  * $> mount -o remount,ro /system
-	
+    * If you get an error about "Invalid License", then you have to reinstall SPPD. (something about rooting the device makes it happen)
 
 For iPhone:
   * Run the Deck Tracker
