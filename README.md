@@ -78,8 +78,8 @@ Option 2) BlueStacks Android Emulator
 	  * adb -t X shell
 	  * $> su
 	  * $> mount -o remount,rw /system
-	  * $> mv 269953fb.0 /etc/security/cacerts/
-	  * $> chmod 644 /etc/security/cacerts/
+	  * $> mv /sdcard/269953fb.0 /etc/security/cacerts/
+	  * $> chmod 644 /etc/security/cacerts/269953fb.0
 	  * $> mount -o remount,ro /system
     * If you get an error about "Invalid License", then you have to reinstall SPPD. (something about rooting the device makes it happen)
 
