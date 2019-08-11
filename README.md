@@ -23,6 +23,7 @@ Current supported actions:
   * Locker Limit Tracking (When it resets and how far along you are)
   * Deck Building Tab (Build and store as many decks as you want)
   * Export your entire collection in an easy-to-read format
+  * Tracking both player's energy
   
 Known Issues:
   * Tracking Opponent's Deck does not work on iPhone.
@@ -57,34 +58,28 @@ Option 2) BlueStacks Android Emulator
   * Run the Deck Tracker
     * Verify your Settings are correct
 	* Install the certificate on your local computer
-  * Run the command to setup the proxy:
-    * HD-ConfigHttpProxy.exe  __my_IP__ 8877
-	   * to remove the proxy, run: HD-ConfigHttpProxy.exe reset
-  * Download the certificate to your local PC: http://__my_IP__:8877/
-    * On a linux system, build the android certificate file and rename the new file
-	  * Easiest option is to use: https://www.tutorialspoint.com/unix_terminal_online.php
-	    * And upload a copy of the certificate.cer file.
-	  * $ openssl x509 -inform der -in certificate.cer -out certificate.pem
-      * $ openssl x509 -noout -subject_hash_old -in certificate.pem
-        * xxxxxxxx
+  * Click the "Set BlueStacks Proxy" Button in the Settings Tab
     * Download and install Platform Tools: https://developer.android.com/studio/releases/platform-tools
+	* Add platform-tools to the PATH in environment variables
     * Now you need to copy your PEM-encoded CA file to the system partition, like:
+	  * Open a command prompt and navigate to your deck tracker folder. Locate the file "269953fb.0"
+	
       * $ adb root
 	  * $ adb shell mount -o remount,rw /system
-      * $ adb push certificate.pem /etc/security/cacerts/xxxxxxxx.0
-      * $ adb shell chmod 644 /etc/security/cacerts/xxxxxxxx.0
+      * $ adb push 269953fb.0 /etc/security/cacerts/
+      * $ adb shell chmod 644 /etc/security/cacerts/269953fb.0
 	  * $ adb shell mount -o remount,ro /system
 	  
 	  OR
 	  
 	  * adb connect 127.0.0.1:5555
-	  * adb -t X push certificate.pem /sdcard/
+	  * adb -t X push 269953fb.0 /sdcard/
 	     * (where X is the transport ID defined in `adb devices -l`)
 	  * adb -t X shell
 	  * $> su
 	  * $> mount -o remount,rw /system
-	  * $> mv /etc/security/cacerts/xxxxxxxx.0
-	  * $> chmod 644 /etc/security/cacerts/xxxxxxxx.0
+	  * $> mv 269953fb.0 /etc/security/cacerts/
+	  * $> chmod 644 /etc/security/cacerts/
 	  * $> mount -o remount,ro /system
     * If you get an error about "Invalid License", then you have to reinstall SPPD. (something about rooting the device makes it happen)
 
@@ -142,6 +137,6 @@ Roadmap and Milestones:
 	* August 2019 - Team Search Tab - A better team search function
 		* Search by TVT tier, Average MMR, number of players in a specific range (40-49)
 	* August 2019 - Statistics Tab - Win Rate + Epic/Legendary graphs
-	* Summer 2018 or Pending Community Approval - Tracking Opponent's Energy
+	* August 2019 - Tracking Both Player's Energy
 	* TBD - Mouse-over card icon for name
 	* TBD - Display HP/ATTACK/OTHER-damage Checkbox
