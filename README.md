@@ -82,6 +82,7 @@ Option 2) BlueStacks Android Emulator
 	  * $> chmod 644 /etc/security/cacerts/269953fb.0
 	  * $> mount -o remount,ro /system
     * If you get an error about "Invalid License", then you have to reinstall SPPD. (something about rooting the device makes it happen)
+	* Also, after you click the 'set bluestacks proxy' button, you will need to restart bluestacks to access the internet.
 
 For iPhone:
   * Run the Deck Tracker
