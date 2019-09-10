@@ -24,6 +24,9 @@ Current supported actions:
   * Deck Building Tab (Build and store as many decks as you want)
   * Export your entire collection in an easy-to-read format
   * Tracking both player's energy
+  * Login to iOS account on Android device (see details below)
+  * Team Wars Token Tracking
+  * Team Wars History analytics
   
 Known Issues:
   * Tracking Opponent's Deck does not work on iPhone.
@@ -110,7 +113,16 @@ Usage:
   * Verify the correct network is selected in the SETTINGS tab
   * Click the RUN button (wait ~5 seconds)
   * Play a game, purchase/collect packs and lockers
-
+  
+Alternate Login:
+================================
+Currently only iOS account to Android device is supported.
+No username/password needed, but an iOS device IS needed.
+  * Connect both (ios device and android device) to the deck tracker.
+  * Enable Alternate Login in the deck tracker SETTINGS tab
+  * Then launch SPPD on your iOS device
+  * You can now close SPPD on your iOS device
+  * Launch the game on your android device - you will automatically log in to your iOS account.
 
 Files:
 ============================================
