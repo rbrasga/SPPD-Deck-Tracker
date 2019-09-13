@@ -14,19 +14,19 @@ Please join the discord: https://discord.gg/m95hg3S
 Walkthrough of the installation process with Nox: https://youtu.be/zJnpfzSowlE
 
 Current supported actions:
-  * Tracking Opponent's Deck in real-time, as they play cards
+  * Tracking each player's decks in real-time, as they play cards
+  * Tracking both player's energy
   * Log Match Details
-  * Log Locker Rewards
-  * Log Pack Rewards
+  * Log Locker/Pack Rewards (and filter by value)
   * TVT Bracket Analytics
   * Estimated ELO gained/lost For Win/Loss
   * Locker Limit Tracking (When it resets and how far along you are)
   * Deck Building Tab (Build and store as many decks as you want)
   * Export your entire collection in an easy-to-read format
-  * Tracking both player's energy
   * Login to iOS account on Android device (see details below)
   * Team Wars Token Tracking
-  * Team Wars History analytics
+  * Team Card Request Tracking
+  * Team Wars History analytics (including export)
   
 Known Issues:
   * Tracking Opponent's Deck does not work on iPhone.
@@ -147,9 +147,9 @@ Roadmap and Milestones:
 	* June 21, 2019 - Deck Building Tab
 	* June 21, 2019 - Export Collection
 	* July 2019 - All Card Levels
-	* August 2019 - Team Search Tab - A better team search function
+	* August 31, 2019 - Tracking Both Player's Energy
+	* TBD - Team Search Tab - A better team search function
 		* Search by TVT tier, Average MMR, number of players in a specific range (40-49)
-	* August 2019 - Statistics Tab - Win Rate + Epic/Legendary graphs
-	* August 2019 - Tracking Both Player's Energy
+	* TBD - Statistics Tab - Win Rate + Epic/Legendary graphs
 	* TBD - Mouse-over card icon for name
 	* TBD - Display HP/ATTACK/OTHER-damage Checkbox
