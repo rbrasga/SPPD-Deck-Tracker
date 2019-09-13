@@ -3,10 +3,12 @@
 ;   NETWORK_INTERFACE: The IP Subnet to monitor
 ;   CHANCE_WIN: Percent chance that you win
 ;   ALTERNATE_LOGIN: Log in to another account
-;   COMPACT_VIEW: Only show the opponent's deck and energy tracking
+;   OPPONENT_ONLY: Only show the opponent's deck and energy tracking
+;   SLIM_INGAME: For real-time deck tracking, False? Default 6x2, True? 12 x 1
 ;
 [SETTINGS]
 NETWORK_INTERFACE: None,None
 CHANCE_WIN: False
 ALTERNATE_LOGIN: False
-COMPACT_VIEW: False
+OPPONENT_ONLY: False
+SLIM_INGAME: False
