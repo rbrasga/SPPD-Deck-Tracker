@@ -43,49 +43,39 @@ After downloading the SPPD Deck Tracker, you may need to Unblock the DLLs in lib
 
 For Android:
 
-Option 1) Nox Android Emulator (Preferred)
-  * Download and Install Nox
+Option 1) Nox/MEMU Android Emulator (Preferred)
+  * Download and Install (Pick one! Nox or MEMU)
     * Nox: https://www.bignox.com/
+	* MEMU: https://www.memuplay.com/
   * Run the Deck Tracker
     * Verify your Settings are correct
 	* Install the certificate on your local computer
-  * Update your Wifi Settings on the Android Emulator (Nox)
+  * Update your Wifi Settings on the Android Emulator
     * Long-click on Wifi to modify settings
 	   * Add a manual proxy using hostname: __my_IP__, port: 8877
+	   * This is an example IP Address. Your actual IP Address is listed in the deck tracker SETTINGS tab.
   * Navigate and install the certificate at: http://__my_IP__:8877/
-     * VPN and Apps, Set Lock Screen
+	  * This is an example link. Your actual IP Address is listed in the deck tracker SETTINGS tab.
+      * VPN and Apps, Set Lock Screen
 
-Option 2) BlueStacks Android Emulator
+Option 2) BlueStacks Android Emulator (10-15 minutes)
   * If you insist on using Bluestacks, download, install and ROOT Bluestacks
     * Root directions here: https://www.youtube.com/watch?v=hneUrKMMaDc
+    * Note: If you get an error while launching SPPD about "Invalid License", then you have to reinstall SPPD. (something about rooting the device makes it happen)
+  * Download from the app store: "Root Certificate Manager" (phone should be rooted first)
   * Run the Deck Tracker
-    * Verify your Settings are correct
+    * Verify the settings in the (SPPD Deck Tracker) SETTINGS's Tab are correct
 	* Install the certificate on your local computer
   * Click the "Set BlueStacks Proxy" Button in the Settings Tab
-    * Download and install Platform Tools: https://developer.android.com/studio/releases/platform-tools
-	* Add platform-tools to the PATH in environment variables
-    * Now you need to copy your PEM-encoded CA file to the system partition, like:
-	  * Open a command prompt and navigate to your deck tracker folder. Locate the file "269953fb.0"
-	
-      * $ adb root
-	  * $ adb shell mount -o remount,rw /system
-      * $ adb push 269953fb.0 /etc/security/cacerts/
-      * $ adb shell chmod 644 /etc/security/cacerts/269953fb.0
-	  * $ adb shell mount -o remount,ro /system
-	  
-	  OR
-	  
-	  * adb connect 127.0.0.1:5555
-	  * adb -t X push 269953fb.0 /sdcard/
-	     * (where X is the transport ID defined in `adb devices -l`)
-	  * adb -t X shell
-	  * $> su
-	  * $> mount -o remount,rw /system
-	  * $> mv /sdcard/269953fb.0 /etc/security/cacerts/
-	  * $> chmod 644 /etc/security/cacerts/269953fb.0
-	  * $> mount -o remount,ro /system
-    * If you get an error about "Invalid License", then you have to reinstall SPPD. (something about rooting the device makes it happen)
-	* Also, after you click the 'set bluestacks proxy' button, you will need to restart bluestacks to access the internet.
+    * Download the certificate onto bluestacks
+	  * Open an internet browser on bluestacks and go to http://__my_IP__:8877/
+	  * This is an example link. Your actual IP Address is listed in the deck tracker SETTINGS tab.
+	  * Download the certificate, but don't bother trying to install it, because you can't anyways.
+	* Now open the app "Root Certificate Manager", and Import the certificate (.cer) file you just downloaded.
+	* Now you're ready to use all of the features of the deck tracker.
+  * Note: Each time after you set the proxy, you have do a *full restart* of bluestacks
+    * Exit Bluestacks by click 'Quit' from the bluestacks icon in the system tray (near the clock).
+	* Then start it up again - now the proxy is ready to go!
 
 For iPhone:
   * Run the Deck Tracker
@@ -141,13 +131,14 @@ There's no such thing as a bad feature request.
 
 Roadmap and Milestones:
 ============================================
-	* May 30, 2019 - Initial Commit
-	* June 14, 2019 - Estimate ELO gained/lost For Win or Loss
-	* June 14, 2019 - Locker Limit Tracking
-	* June 21, 2019 - Deck Building Tab
-	* June 21, 2019 - Export Collection
+	* May 2019 - Initial Commit
+	* June 2019 - Estimate ELO gained/lost For Win or Loss
+	* June 2019 - Locker Limit Tracking
+	* June 2019 - Deck Building Tab
+	* June 2019 - Export Collection
 	* July 2019 - All Card Levels
-	* August 31, 2019 - Tracking Both Player's Energy
+	* August 2019 - Tracking Both Player's Energy
+	* October 2019 - Automatic Team Bottle Cap Upgrade Tracking
 	* TBD - Team Search Tab - A better team search function
 		* Search by TVT tier, Average MMR, number of players in a specific range (40-49)
 	* TBD - Statistics Tab - Win Rate + Epic/Legendary graphs
