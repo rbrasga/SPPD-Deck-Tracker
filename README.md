@@ -106,13 +106,20 @@ Usage:
   
 Alternate Login:
 ================================
-Currently only iOS account to Android device is supported.
-No username/password needed, but an iOS device IS needed.
-  * Connect both (ios device and android device) to the deck tracker.
-  * Enable Alternate Login in the deck tracker SETTINGS tab
-  * Then launch SPPD on your iOS device
-  * You can now close SPPD on your iOS device
-  * Launch the game on your android device - you will automatically log in to your iOS account.
+Both iOS and Android accounts to iOS and Android devices are supported. See details below.
+  * IOS account to Android Device
+    * No username/password needed, but an iOS device IS needed.
+    * Connect both (ios device and android device) to the deck tracker.
+    * Enable Alternate Login + iOS in the deck tracker SETTINGS tab
+    * Then launch SPPD on your iOS device
+    * You can now close SPPD on your iOS device
+    * Launch the game on your android device - you will automatically log in to your iOS account.
+  * Android account to iOS Device
+    * Android username/password needed, no Android device is needed.
+    * Connect IOS device to the deck tracker.
+    * Enable Alternate Login + Android in the deck tracker SETTINGS tab
+    * Input your Android Username/Password (password is only required the first time)
+    * Then launch SPPD on your iOS device - you will automatically log in to your Android account.
 
 Files:
 ============================================
