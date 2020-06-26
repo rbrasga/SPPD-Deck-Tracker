@@ -1,17 +1,18 @@
 ; SETTINGS.txt
 ; SETTINGS Details:
-;   NETWORK_INTERFACE: The IP Subnet to monitor
+;   EASTER_EGG: Open a free pack to reveal 4 unplayable cards that will not appear in your collection
+;   OPP_DECK: View Opponent's Full Deck
 ;   CHANCE_WIN: Percent chance that you win
 ;   ALTERNATE_LOGIN: Log in to another account
 ;   OPPONENT_ONLY: Only show the opponent's deck and energy tracking
 ;   SLIM_INGAME: For real-time deck tracking, False? Default 6x2, True? 12 x 1
+;   SHARE_DATA: Upload your username and Collection to SPPDReplay.net
 ;
 [SETTINGS]
-NETWORK_INTERFACE: None,None
-EASTER_EGG: True
+EASTER_EGG: False
+OPP_DECK: False
 CHANCE_WIN: True
 ALTERNATE_LOGIN: False
 OPPONENT_ONLY: False
 SLIM_INGAME: False
-AUTO_GARAGE_REFRESH: False
 SHARE_DATA: False
