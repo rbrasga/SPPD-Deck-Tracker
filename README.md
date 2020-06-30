@@ -14,8 +14,8 @@ Please join the discord: https://discord.gg/m95hg3S
 Walkthrough of the installation process with Nox: https://youtu.be/zJnpfzSowlE
 
 Current supported actions:
-  * Tracking each player's decks in real-time, as they play cards
-  * Tracking both player's energy
+  * Tracking each player's decks ~~in real-time, as they play cards~~
+  * ~~Tracking both player's energy~~ (Deprecated)
   * Log Match Details
   * Log Locker/Pack Rewards (and filter by value)
   * TVT Bracket Analytics
@@ -24,12 +24,9 @@ Current supported actions:
   * Deck Building Tab (Build and store as many decks as you want)
   * Export your entire collection in an easy-to-read format
   * Login to iOS account on Android device (see details below)
-  * Team Wars Token Tracking
-  * Team Card Request Tracking
+  * ~~Team Wars Token Tracking~~ (Deprecated)
+  * ~~Team Card Request Tracking~~ (Deprecated)
   * Team Wars History analytics (including export)
-  
-Known Issues:
-  * Tracking Opponent's Deck does not work on iPhone.
 
 
 Installation:
@@ -37,7 +34,7 @@ Installation:
 
 Installation Video [I need to update this with some missing parts]: https://youtu.be/zJnpfzSowlE
 
-Before installation, you need to install WinPcap from https://www.winpcap.org/
+~~Before installation, you need to install WinPcap from https://www.winpcap.org/~~ (No longer needed)
 
 After downloading the SPPD Deck Tracker, you may need to Unblock the DLLs in libpcap and libpcap/_platform: https://i.imgur.com/dKJEAfd.png
 
