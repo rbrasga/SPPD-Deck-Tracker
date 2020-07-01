@@ -2,7 +2,6 @@
 ; SETTINGS Details:
 ;   EASTER_EGG: Open a free pack to reveal 4 unplayable cards that will not appear in your collection
 ;   OPP_DECK: View Opponent's Full Deck
-;   CHANCE_WIN: Percent chance that you win
 ;   ALTERNATE_LOGIN: Log in to another account
 ;   OPPONENT_ONLY: Only show the opponent's deck and energy tracking
 ;   SLIM_INGAME: For real-time deck tracking, False? Default 6x2, True? 12 x 1
@@ -11,7 +10,6 @@
 [SETTINGS]
 EASTER_EGG: False
 OPP_DECK: False
-CHANCE_WIN: True
 ALTERNATE_LOGIN: False
 OPPONENT_ONLY: False
 SLIM_INGAME: False
