@@ -1,13 +1,16 @@
 # SPPD-Deck-Tracker
 South Park Phone Destroyer Deck Tracker
 
-Current Version: v1.02
+This content is in no way approved, endorsed, sponsored, or connected to South Park Digital Studios, Ubisoft, RedLynx, or associated/affiliated entities, nor are these entities responsible for this content.
 
+Current Version: v2.44
 
 Introduction:
 ============
 
-This is a very basic application meant to run along side South Park Phone Destroyer
+This is a very basic application meant to run along side South Park Phone Destroyer.
+
+This 
 
 Please join the discord: https://discord.gg/m95hg3S
 
@@ -19,24 +22,23 @@ Current supported actions:
   * Log Match Details
   * Log Locker/Pack Rewards (and filter by value)
   * TVT Bracket Analytics
-  * Estimated ELO gained/lost For Win/Loss
+  * ELO gained/lost For Win/Loss
   * Locker Limit Tracking (When it resets and how far along you are)
   * Deck Building Tab (Build and store as many decks as you want)
+    * Supports all themes in a single deck, to more easily communicate multi-theme TVT decks.
   * Export your entire collection in an easy-to-read format
   * Login to iOS account on Android device (see details below)
-  * ~~Team Wars Token Tracking~~ (Deprecated)
-  * ~~Team Card Request Tracking~~ (Deprecated)
+  * ~~Team Wars Token Tracking~~ (Deprecated) - USE Team Manager App
+  * ~~Team Card Request Tracking~~ (Deprecated) - USE Team Manager App
   * Team Wars History analytics (including export)
 
 
 Installation:
 ==============
 
-Installation Video [I need to update this with some missing parts]: https://youtu.be/zJnpfzSowlE
-
-~~Before installation, you need to install WinPcap from https://www.winpcap.org/~~ (No longer needed)
-
-After downloading the SPPD Deck Tracker, you may need to Unblock the DLLs in libpcap and libpcap/_platform: https://i.imgur.com/dKJEAfd.png
+Installation Video: https://youtu.be/zJnpfzSowlE
+   * Does anyone want to make a better setup video?
+   * I also need one for iphone.
 
 For Android:
 
@@ -50,10 +52,8 @@ Option 1) Nox/MEMU Android Emulator (Preferred)
   * Update your Wifi Settings on the Android Emulator
     * Long-click on Wifi to modify settings
 	   * Add a manual proxy using hostname: __my_IP__, port: 8877
-	   * This is an example IP Address. Your actual IP Address is listed in the deck tracker SETTINGS tab.
-  * Navigate and install the certificate at: http://__my_IP__:8877/
-	  * This is an example link. Your actual IP Address is listed in the deck tracker SETTINGS tab.
-      * VPN and Apps, Set Lock Screen
+	      * __my_IP__ is found in the Deck Tracker SETTINGS Tab.
+    * Navigate and install the certificate at: http://__my_IP__:8877/
 
 Option 2) BlueStacks Android Emulator (10-15 minutes)
   * If you insist on using Bluestacks, download, install and ROOT Bluestacks
@@ -71,15 +71,16 @@ Option 2) BlueStacks Android Emulator (10-15 minutes)
 	* Now open the app "Root Certificate Manager", and Import the certificate (.cer) file you just downloaded.
 	* Now you're ready to use all of the features of the deck tracker.
   * Note: Each time after you set the proxy, you have do a *full restart* of bluestacks
-    * Exit Bluestacks by click 'Quit' from the bluestacks icon in the system tray (near the clock).
+    * Exit Bluestacks by clicking 'Quit' from the bluestacks icon in the system tray (near the clock).
 	* Then start it up again - now the proxy is ready to go!
 
-For iPhone:
+For iOS Devices:
   * Run the Deck Tracker
     * Verify your Settings are correct
 	* Install the certificate on your local computer
   * Update your Wifi Settings on the iPhone
 	 * Add a manual proxy using hostname: __my_IP__, port: 8877
+	    * __my_IP__ is found in the Deck Tracker SETTINGS Tab.
   * Navigate and install the certificate at: http://__my_IP__:8877/
   * Grant full access to the certificate
 	  * Navigate to Settings
@@ -87,18 +88,12 @@ For iPhone:
 		* Find the one you just installed
 		* Enable full access
 
-Note: I have only verified functionality on:
-   * iPhone 5
-   * Nox 6.2.8.0 (Android 5)
-   * Bluestacks 4 (rooted)
-If you have gotten this working on a different device, please let me know.
-
 Usage:
 ================================
-  * Complete installion successfully
+  * Download all the files by clicking Clone -> Download as Zip, then extract all the files.
   * Launch the SPPD Deck Tracker Application
-  * Verify the correct network is selected in the SETTINGS tab
-  * Click the RUN button (wait ~5 seconds)
+  * Click the RUN button
+  * Start the app SPPD (Do not connect to the deck-tracker after already starting SPPD)
   * Play a game, purchase/collect packs and lockers
   
 Alternate Login:
@@ -120,9 +115,7 @@ Both iOS and Android accounts to iOS and Android devices are supported. See deta
 
 Files:
 ============================================
-  * CARDS/* 	- Icons for characters, spells, rewards
-  * OUTPUT/* 	- Log of deck-tracker, matches, packs, lockers
-  * libpcap/* 	- Library modules for the deck tracker
+  * OUTPUT/* 	- Log of matches, packs, lockers
   * SPPD_Deck_Tracker.exe 	- The primary executable you need to run
   * SETTINGS.txt	- The raw settings file used by the executable
 
