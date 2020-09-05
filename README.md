@@ -32,7 +32,7 @@ Current supported actions:
 
 Installation:
 ==============
-**Updated Video Guides**
+**Updated Video Guides** - Thanks to `3LV1N5#0987`
    * iOS Install Guide: https://www.youtube.com/watch?v=ZTl1Go8Fh1Q
    * Android Emulator Install Guide: https://www.youtube.com/watch?v=_ienJRZcSx0
    * Play iOS on PC: https://www.youtube.com/watch?v=elLGcli0Bx8
