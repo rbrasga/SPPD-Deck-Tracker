@@ -17,8 +17,7 @@ Please join the discord: https://discord.gg/m95hg3S
 Walkthrough of the installation process with Nox: https://youtu.be/zJnpfzSowlE
 
 Current supported actions:
-  * Tracking each player's decks ~~in real-time, as they play cards~~
-  * ~~Tracking both player's energy~~ (Deprecated)
+  * Tracking each player's decks
   * Log Match Details
   * Log Locker/Pack Rewards (and filter by value)
   * TVT Bracket Analytics
@@ -28,17 +27,15 @@ Current supported actions:
     * Supports all themes in a single deck, to more easily communicate multi-theme TVT decks.
   * Export your entire collection in an easy-to-read format
   * Login to iOS account on Android device (see details below)
-  * ~~Team Wars Token Tracking~~ (Deprecated) - USE Team Manager App
-  * ~~Team Card Request Tracking~~ (Deprecated) - USE Team Manager App
   * Team Wars History analytics (including export)
 
 
 Installation:
 ==============
-
-Installation Video: https://youtu.be/zJnpfzSowlE
-   * Does anyone want to make a better setup video?
-   * I also need one for iphone.
+**Updated Video Guides** - Thanks to `3LV1N5#0987`
+   * iOS Install Guide: https://www.youtube.com/watch?v=ZTl1Go8Fh1Q
+   * Android Emulator Install Guide: https://www.youtube.com/watch?v=_ienJRZcSx0
+   * Play iOS on PC: https://www.youtube.com/watch?v=elLGcli0Bx8
 
 For Android:
 
@@ -55,7 +52,7 @@ Option 1) Nox/MEMU Android Emulator (Preferred)
 	      * __my_IP__ is found in the Deck Tracker SETTINGS Tab.
     * Navigate and install the certificate at: http://__my_IP__:8877/
 
-Option 2) BlueStacks Android Emulator (10-15 minutes)
+Option 2) BlueStacks Android Emulator (10 minutes)
   * If you insist on using Bluestacks, download, install and ROOT Bluestacks
     * Root directions here: https://www.youtube.com/watch?v=hneUrKMMaDc
     * Note: If you get an error while launching SPPD about "Invalid License", then you have to reinstall SPPD. (something about rooting the device makes it happen)
@@ -98,6 +95,11 @@ Usage:
   
 Alternate Login:
 ================================
+
+
+**Updated Video Guides**
+   * Play iOS on PC: https://www.youtube.com/watch?v=elLGcli0Bx8
+
 Both iOS and Android accounts to iOS and Android devices are supported. See details below.
   * IOS account to Android Device
     * No username/password needed, but an iOS device IS needed.
