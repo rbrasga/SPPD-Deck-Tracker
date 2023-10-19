@@ -1,3 +1,5 @@
+It does not work. Project is deprecated. Too much has changed around android security and the app (SPPD). 
+
 # SPPD-Deck-Tracker
 South Park Phone Destroyer Deck Tracker
 
